@@ -1,0 +1,22 @@
+PODS:
+  - pilot-ios-sdk (2.0.0)
+
+DEPENDENCIES:
+  - pilot-ios-sdk (from `https://github.com/piltekvn/pilot-ios-sdk.git`, branch `qoe`)
+
+EXTERNAL SOURCES:
+  pilot-ios-sdk:
+    :branch: qoe
+    :git: https://github.com/piltekvn/pilot-ios-sdk.git
+
+CHECKOUT OPTIONS:
+  pilot-ios-sdk:
+    :commit: fcf9817eb272e8ef27c7ee52a7c5c89441054777
+    :git: https://github.com/piltekvn/pilot-ios-sdk.git
+
+SPEC CHECKSUMS:
+  pilot-ios-sdk: f5178a03a20bea3fd3e591818fc954b034cac6c9
+
+PODFILE CHECKSUM: bc76b89c6925ff7e989650c20edd323eca14a054
+
+COCOAPODS: 1.14.3

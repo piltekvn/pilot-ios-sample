@@ -1,0 +1,28 @@
+{
+  "name": "pilot-ios-sdk",
+  "version": "2.0.0",
+  "summary": "Pilot SDK is MultiCDN for iOS project",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/piltekvn/pilot-ios-sdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sao Nguyen": "piltekvn@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/piltekvn/pilot-ios-sdk.git",
+    "tag": "2.0.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "include/*.h",
+  "public_header_files": "include/*.h",
+  "vendored_libraries": "lib/libpilot-ios-sdk.a",
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/pilot-ios-sdk/include/**"
+  },
+  "static_framework": true
+}
