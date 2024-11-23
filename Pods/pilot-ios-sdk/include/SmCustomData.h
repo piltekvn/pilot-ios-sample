@@ -11,6 +11,8 @@
 
 // Khai báo thuộc tính (properties)
 @property (nonatomic, strong) NSString *userId;
+@property (nonatomic, strong) NSString *playerSoftware;
+@property (nonatomic, strong) NSString *playerSoftwareVersion;
 @property (nonatomic, strong) NSString *streamType;
 @property (nonatomic, strong) NSString *contentType;
 @property (nonatomic, strong) NSString *videoId;

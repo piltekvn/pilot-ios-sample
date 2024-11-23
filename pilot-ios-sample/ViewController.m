@@ -101,10 +101,12 @@
     AVPlayerItem *currentItem = [AVPlayerItem playerItemWithURL:url];
     
     SmCustomData * smCustomData = [[SmCustomData alloc] init];;
-    smCustomData.userId = @"AVPlayer_userId";
+    smCustomData.userId = @"user_id_123";
+    smCustomData.playerSoftware = @"SigmaPlayer";
+    smCustomData.playerSoftwareVersion = @"1.0.0";
     smCustomData.streamType = @"vod";
-    smCustomData.contentType = @"contentType_event";
-    smCustomData.videoId = @"videoId_123";
+    smCustomData.contentType = @"content_type";
+    smCustomData.videoId = @"video_id_123";
     smCustomData.language = @"vn";
     smCustomData.series = @"series_antv";
     smCustomData.title = @"title_antv";

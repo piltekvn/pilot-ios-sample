@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   pilot-ios-sdk:
-    :commit: fcf9817eb272e8ef27c7ee52a7c5c89441054777
+    :commit: 6b03befae552818a99fac526c0a46f3a2c2b9011
     :git: https://github.com/piltekvn/pilot-ios-sdk.git
 
 SPEC CHECKSUMS:
